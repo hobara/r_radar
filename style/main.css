@@ -1,0 +1,215 @@
+html, body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+a .thumbnail.invisible-when-pinned.may-blank.outbound {
+  display: none;
+}
+
+span.rank {
+  display: none;
+}
+
+.content {
+  padding: 10px 20px 40px 20px;
+  background-color: #F3F2F1;
+  display: flex;
+}
+
+.header-back {
+  background-color: #F3B9BD;
+  height: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+.header {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -35px;
+  font-family: 'Russo One', sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  color: #666666;
+}
+
+.main-post {
+  order: 1;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px 20px;
+  display: block;
+  width: 80%;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 26px;
+  color: #666666;
+}
+
+.subreddits {
+  order: 2;
+  background-color: white;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 15px 15px;
+  width: 20%;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+.subreddits :hover {
+  cursor: pointer;
+}
+
+.post-list {
+  padding-left: 0px;
+}
+
+.top-matter {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.active-post {
+  border: 1px solid #F3B9BD;
+}
+
+.title {
+  margin: 0px 0px;
+  font-size: 26px;
+  color: #666666;
+}
+
+.title :hover {
+  color: #E5656E;
+  cursor: pointer;
+}
+
+.content-header {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+span.domain {
+  font-size: 20px;
+  font-style: italic;
+}
+
+p.tagline {
+  margin: 0px 0px;
+  font-size: 16px;
+  text-align: right;
+  font-style: italic;
+}
+
+p.tagline :hover {
+  color: #60B2D0;
+}
+
+ul.flat-list.buttons {
+  list-style-type: none;
+}
+
+ul.flat-list.buttons li.first {
+  font-size: 16px;
+  text-align: right;
+  font-style: italic;
+}
+
+ul.flat-list.buttons li.first :hover {
+  color: #60B2D0;
+}
+
+ul.flat-list.buttons li:nth-of-type(1n+2) {
+  display: none;
+}
+
+div.score {
+  font-size: 18px;
+}
+
+div.score.dislikes {
+  display: none;
+}
+
+div.score.likes {
+  display: none;
+}
+
+.sub-list {
+  padding-left: 5px;
+}
+.score.unvoted {
+  display: none;
+}
+
+.active {
+  color: #E5656E;
+}
+
+ul.sub-list li {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul.sub-list li input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+ul.sub-list li :hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+ul.sub-list li input:checked ~ .checkmark {
+  background-color: #E5656E;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+ul.sub-list li input:checked ~ .checkmark:after {
+  display: block;
+}
+
+ul.sub-list li .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

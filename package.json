@@ -1,0 +1,25 @@
+{
+  "name": "r_rader",
+  "version": "1.0.0",
+  "description": "Reddit Radar is a simple web app that scrapes posts from Reddit and displays it based on your choice of subreddits. Built with jQuery and vanilla JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobara/r_radar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hobara/r_radar/issues"
+  },
+  "homepage": "https://github.com/hobara/r_radar#readme",
+  "dependencies": {
+    "serve": "^6.4.1"
+  }
+}

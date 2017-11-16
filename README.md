@@ -2,5 +2,9 @@
 
 Reddit Radar is a simple web app that scrapes posts from Reddit and displays it based on your choice of subreddits. Built with jQuery and vanilla JavaScript.
 
-Set up by downloading the zip file and open index.html.
-Select your favorite subreddits on the left checkbox and it will update the post stream.
+1) Download the zip file
+2) Run ```npm install```
+3) Run ```serve -p index.html```
+
+Open localhost:5000 and enjoy selecting your favorite subreddits in the checkbox.
+It will update the post stream based on your choice.

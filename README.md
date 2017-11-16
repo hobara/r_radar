@@ -8,3 +8,5 @@ Reddit Radar is a simple web app that scrapes posts from Reddit and displays it 
 
 Open localhost:5000 and enjoy selecting your favorite subreddits in the checkbox.
 It will update the post stream based on your choice.
+
+![homescreen](./images/main.png)
